@@ -1,0 +1,14 @@
+Instructions
+
+Files: 
+1 - requirements.txt to check and eventually install the required dependecies to run the codes
+2 - Breakout-Atari.ipynb: inspection for the Breakout environment.
+3 - breakout.py: the file defines DQNBreakout, a custom Gym environment wrapper for the Breakout game, handling frame skipping, grayscale preprocessing, reward adjustment, and tensor conversion for Deep Q-Learning.
+4 - model.py: the file defines AtariNet, a PyTorch neural network for Atari games, with convolutional layers for feature extraction and separate streams for state and action values. It includes methods for saving and loading model weights.
+5 - agent.py: the file implements a Deep Q-Learning agent with a replay memory for experience storage, epsilon-greedy policy for exploration, and training/testing functionality, including model saving and live plotting of performance metrics.
+6 - liveplot.py: the file defines LivePlot, a class for visualizing training progress by plotting average returns and epsilon values over epochs, and saving the plots as PNG files.
+7 - train.ipynb: the script sets up and trains a reinforcement learning agent in the DQNBreakout environment using the AtariNet model, saving progress and training results over 14.000 epochs.
+8 - test.ipynb: the script tests a trained AtariNet model on the DQNBreakout environment, captures an episode, and generates a GIF from the episode's frames for visualization.
+9 - episode.gif: it is the gift returned by the test file.
+10 - plots: it is the folder that stores the training progress plots.
+11 - models: it is a folder that contains the trained models. 
