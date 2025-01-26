@@ -1,7 +1,7 @@
 Instructions
 
 Files: 
-1 - requirements.txt to check and eventually install the required dependecies to run the codes
+1 - requirements.txt:check and eventually install the required dependencies to run the codes
 2 - Breakout-Atari.ipynb: inspection for the Breakout environment.
 3 - breakout.py: the file defines DQNBreakout, a custom Gym environment wrapper for the Breakout game, handling frame skipping, grayscale preprocessing, reward adjustment, and tensor conversion for Deep Q-Learning.
 4 - model.py: the file defines AtariNet, a PyTorch neural network for Atari games, with convolutional layers for feature extraction and separate streams for state and action values. It includes methods for saving and loading model weights.
